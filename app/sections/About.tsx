@@ -42,17 +42,15 @@ const About = () => {
         </div>
         <div className="w-full lg:w-[50%] order-1 lg:order-2">
           <article className="leading-relaxed text-base md:text-lg">
-            I'm Farouk Mustapha, a Software Developer based in Lagos, Nigeria,
-            with over 3 years of experience building web and mobile apps. I work
+            I'm Samuel Adisi, a Software Developer based in Accra, Ghana,
+            with over 4 years of experience building web and mobile apps. I work
             mostly with JavaScript, TypeScript, React, React Native, Next.js,
-            and Nodejs, turning ideas and designs into clean, functional user
+            and Nodejs, Python, Django, turning ideas and designs into clean, functional user
             interfaces.
             <br />
             <br />
             I enjoy collaborating with designers, backend devs, frontend devs,
-            and DevOps to bring products to life. I've worked on projects across
-            startups like Pathpalz, Berrystamp, and JustDoStartUp, and I've
-            learned a lot along the way.
+            and DevOps to bring products to life
             <br />
             <br />
             Outside of code, I play chess, watch anime, and constantly look for

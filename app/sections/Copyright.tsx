@@ -12,21 +12,11 @@ const Copyright = () => {
           rel="noopener noreferrer"
         >
           {" "}
-          devfarouk 👨‍💻
+          samueladisi 👨‍💻
         </Link>{" "}
-        (Inspirations from{" "}
-        <Link
-          href={"https://www.geekmaros.dev/"}
-          className=" font-bold"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Geekmaros
-        </Link>{" "}
-        )
       </p>
       <div></div>
-      <p className=" ">&copy; 2024 All rights reserved.</p>
+      <p className=" ">&copy; 2026 All rights reserved.</p>
     </div>
   );
 };

@@ -173,58 +173,41 @@ export const companiesInfo = [
 
 export const projects = [
   {
-    name: "PharmaEco",
-    type: "Featured Project",
+    name: "iCampus",
+    type: "Personal Project",
     description:
-      "PharmaEco is an AI-powered pharmaceutical waste management platform promoting safe disposal, recycling, and sustainability across Nigeria. It integrates an AI chatbot, community engagement, and regulatory compliance to support a greener future and multiple UN SDGs.",
-    image: "/pharmaeco.webp",
-    liveLink: "https://pharmaeco.org",
+      "Developing an improved School Management System for Accra Technical University",
+    image: "/IC.png",
+    liveLink: "",
     stacks: [
-      "Next.js",
-      "TypeScript",
-      "Node.Js",
-      "TailwindCss",
-      "PWA",
-      "Vercel",
+      "React.Js",
+      "JavaScript",
+      "Python",
+      "Django",
+      "Postgres",
     ],
   },
   {
-    name: "BFN 2025 Yearbook",
-    type: "Featured Project",
+    name: "MallMark E-commerce",
+    type: "Personal Project",
     description:
-      "Developed the Black Founders Network 2025 Yearbook microsite to celebrate founders, facilitate live voting, and enhance visibility within the BFN community.",
-    image: "/bfn-2025.webp",
+      "Multi-vendor Marketplace for product listings, orders, reviews, and secure payment integration",
+    image: "/mallmark.png",
     liveLink: "https://www.programs-bfn.ca/yearbook-2025",
-    stacks: ["TypeScript", "React", "TailwindCss", "AOS", "Firebase"],
+    stacks: ["JavaScript", "React", "TailwindCss", "PHP", "Laravel"],
   },
   {
-    name: "RxQuadri",
-    type: "Featured Project",
+    name: "DeepGene",
+    type: "Personal Project",
     description:
-      "Portfolio of a UI/UX Designer creating intuitive digital experiences, co-founder of PharmaBin, and advocate for climate action & the SDGs.",
-    image: "/rxquadri.webp",
-    liveLink: "https://rxquadri.vercel.app/",
-    githubLink: "https://github.com/Farouk-ayo/rxquadri",
-    stacks: ["Next.js", "TypeScript", "Tailwind CSS"],
+      "Currently working on an AI drug resistance predictive model to help Pharmaceutical companies in drug study and production",
+    image: "/deepgene.png",
+    liveLink: "",
+    githubLink: "https://github.com/Samuel-Adisi/DeepGene",
+    stacks: ["Python", "BioPython", "RandomForest", "Django"],
   },
 
-  {
-    name: "3D Avatar Fitting App",
-    type: "A Take-Home Assignment Solution",
-    description:
-      "A 3D Avatar Fitting App that enables users to upload and interact with 3D avatar and clothing models (.glb/.gltf). It features auto-fitting logic, real-time color customization, scene state management, visibility toggling, and cloud file storage with a modern dark UI.",
-    image: "/avatar-fit.webp",
-    liveLink: "https://avatar-fit.vercel.app/",
-    githubLink: "https://github.com/Farouk-ayo/avatarFit",
-    loomLink: "https://loom.com/share/15e15cd4f6fb467592477eb4ce8a2f4c",
-    stacks: [
-      "Next.js",
-      "TypeScript",
-      "React Three Fiber",
-      "Material UI",
-      "Vercel Blob",
-    ],
-  },
+ 
 
   {
     name: "Mindvolta",
@@ -232,18 +215,10 @@ export const projects = [
     description:
       "Mindvolta is a smart mental health assistant that helps users, especially young people and undergraduates, manage conditions like depression, anxiety, and addiction. It includes mood tracking, calming playlists, and chatbot support tailored for emotional wellbeing.",
     image: "/mindVolta.webp",
-    githubLink: "https://github.com/Farouk-ayo/mindvolta",
+    githubLink: "https://github.com/Samuel-Adisi/MindVolta",
     stacks: ["React Native", "TypeScript", "TailwindCss"],
   },
-  {
-    name: "PharmaBin",
-    type: "Featured Project",
-    description:
-      "PharmaBin tackles pharmaceutical waste management in Nigeria by integrating technology, community engagement, and sustainability. It offers a safe, efficient, and eco-friendly solution for disposing of expired, unused, or contaminated medications.",
-    image: "/pharmabin.webp",
-    liveLink: "https://www.pharmabin.org/",
-    stacks: ["TypeScript", "Nextjs", "TailwindCss", "AOS", "Nodejs"],
-  },
+ 
   {
     name: "Farote Notes App",
     type: "Personal Project",
@@ -251,7 +226,7 @@ export const projects = [
       "Farote is a personal fullstack notes app I built to manage my ideas, quick thoughts, and to-dos. I wanted something I could use anywhere, so I made it a PWA, which means I can install and use it like a native app on my phone. It’s clean, responsive, and supports real-time note creation, editing, and deletion with a smooth, modern UI.",
     image: "/farote.webp",
     liveLink: "https://farote.vercel.app",
-    githubLink: "https://github.com/Farouk-ayo/Farote",
+    githubLink: "",
     stacks: [
       "TypeScript",
       "Next.js",
@@ -281,15 +256,7 @@ export const projects = [
     stacks: ["TypeScript", "React", "TailwindCss", "Redux"],
   },
 
-  {
-    name: "BFN 2024 Yearbook",
-    type: "Featured Project",
-    description:
-      "Developed the Black Founders Network 2024 Yearbook microsite to showcase founders and promote engagement. Designed for clarity, accessibility, and smooth navigation.",
-    image: "/bfn-2024.webp",
-    liveLink: "https://www.programs-bfn.ca/yearbook-2024",
-    stacks: ["TypeScript", "React", "TailwindCss", "AOS"],
-  },
+  
   // {
   //   name: "TMDB v2 Mobile App",
   //   type: "Personal Project",
@@ -300,24 +267,8 @@ export const projects = [
   //   githubLink: "https://github.com/Farouk-ayo/tmdb-v2-mobile-app",
   //   liveLink: "https://expo.dev/artifacts/eas/wWgr9LmHE1qD5SnQKHA6QS.aab",
   // },
-  {
-    name: "GSwift",
-    type: "Featured Project",
-    description:
-      "A Gwift web app is a progressive ridesharing application with real-time tracking, seamless geocoordinate integration, and a user-friendly interface, prioritizing smooth navigation and efficient API consumption.",
-    image: "/gswift.webp",
-    liveLink: "https://gswift.pathpalz.com/",
-    stacks: ["TypeScript", "React", "TailwindCss"],
-  },
-  {
-    name: "DeepFocustt",
-    type: "Featured Project",
-    description:
-      "For the DeepFocustt project, I developed and integrated animations by incorporating full HTML code, including CSS, JavaScript, and additional packages, to create a dynamic and engaging user experience on their Wix platform",
-    image: "/deepfocus.webp",
-    liveLink: "https://www.deepfocustt.com/",
-    stacks: ["Wix", "Css", "Html", "Gsap"],
-  },
+
+ 
   {
     name: "Huntstore",
     type: "Personal Project",
@@ -328,25 +279,9 @@ export const projects = [
     githubLink: "https://github.com/Farouk-ayo/huntstore",
     stacks: ["JavaScript", "React", "css"],
   },
-  {
-    name: "Duplicate character remover",
-    type: "Personal Project",
-    description:
-      "A houseware frontend engineering octernship task to develop a webapp for deletion of duplicate characters on clicking on the selected duplicated character or text",
-    image: "/duplicateremover.webp",
-    liveLink:
-      "https://houseware-frontend-engineering-octernship-frk-ayo.vercel.app/",
-    stacks: ["JavaScript", "React", "css"],
-  },
-  {
-    name: "E-vent",
-    type: "Featured Project",
-    description:
-      "E-vent is a centralized platform for event planners, organizers and attendees, to coordinate and manage various aspects of events such as scheduling, ticketing, registration, marketing and communication",
-    image: "/e-vent.webp",
-    stacks: ["JavaScript", "React", "Tailwind", "Mui"],
-  },
-  {
+ 
+
+   {
     name: "MovieBox",
     type: "Personal Project",
     description:
@@ -357,33 +292,16 @@ export const projects = [
     stacks: ["JavaScript", "React", "css"],
   },
   {
-    name: "Penslab",
+    name: "E-vent",
     type: "Featured Project",
     description:
-      "An Electrical Electronics Engineering Departmental Project in connection to an Arduino Sensor",
-    image: "/penslab.webp",
-    liveLink: "https://penslab.vercel.app/",
-    githubLink: "https://github.com/Farouk-ayo/penslab",
-    stacks: ["JavaScript", "React", "Tailwind"],
+      "E-vent is a centralized platform for event planners, organizers and attendees, to coordinate and manage various aspects of events such as scheduling, ticketing, registration, marketing and communication",
+    image: "/e-vent.webp",
+    stacks: ["JavaScript", "React", "Tailwind", "Mui"],
   },
-  {
-    name: "Yalbaze",
-    type: "Personal Project",
-    description: "A designed webapp landing page",
-    image: "/yalbaze.webp",
-    githubLink: "https://github.com/Farouk-ayo/yalbaze",
-    liveLink: "https://yalbaze.vercel.app/",
-    stacks: ["css", "React"],
-  },
-  {
-    name: "Frk-ayo",
-    type: "Personal Project",
-    description:
-      "The aim of the project was to attract the users with the UI, which i built with HTML/CSS and JavaScript.",
-    image: "/frk_ayo.webp",
-    githubLink: "https://github.com/Farouk-ayo/Frkayo-Financesite",
-    liveLink: "https://frkayo-financesite.vercel.app",
-    stacks: ["Sass/scss", "Html", "JavaScript"],
-  },
+ 
+ 
+  
+
   ,
 ];

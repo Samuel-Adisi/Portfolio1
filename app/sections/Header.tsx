@@ -13,7 +13,7 @@ const Header = () => {
         <div className="flex flex-col gap-2">
           <span className=" font-medium text-lg">Hi, I'm</span>
           <h1 className=" font-bold  text-6xl md:text-7xl font-display">
-            Farouk Mustapha
+            Samuel Adisi
           </h1>
         </div>
         <div className="relative">
@@ -61,7 +61,7 @@ const Header = () => {
         <div className="relative h-[18rem] w-[18rem] lg:h-[17rem] lg:w-[17rem]">
           <Image
             alt="profile image"
-            src={"/profile.webp"}
+            src={"/Adisi.jpg"}
             className=" grayscale-[70%]  transition-all "
             style={{
               borderRadius: "50%",
