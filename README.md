@@ -1,6 +1,6 @@
 # **Farouk Mustapha | Frontend Engineer Portfolio**
 
-![Portfolio Preview](https://devfarouk.vercel.app/devfarouk.png)
+
 
 A **modern, responsive, and SEO-friendly portfolio** built with **Next.js 14, TypeScript, and Tailwind CSS**. It showcases my projects, technical skills, and experience as a **Frontend Engineer** specializing in React and Next.js.
 
