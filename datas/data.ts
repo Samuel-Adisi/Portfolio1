@@ -179,6 +179,7 @@ export const projects = [
       "Developing an improved School Management System for Accra Technical University",
     image: "/IC.png",
     liveLink: "",
+     loomLink: "", // Add this
     stacks: [
       "React.Js",
       "JavaScript",
@@ -194,6 +195,7 @@ export const projects = [
       "Multi-vendor Marketplace for product listings, orders, reviews, and secure payment integration",
     image: "/mallmark.png",
     liveLink: "https://www.programs-bfn.ca/yearbook-2025",
+     loomLink: "", // Add this
     stacks: ["JavaScript", "React", "TailwindCss", "PHP", "Laravel"],
   },
   {
@@ -203,6 +205,7 @@ export const projects = [
       "Currently working on an AI drug resistance predictive model to help Pharmaceutical companies in drug study and production",
     image: "/deepgene.png",
     liveLink: "",
+     loomLink: "", // Add this
     githubLink: "https://github.com/Samuel-Adisi/DeepGene",
     stacks: ["Python", "BioPython", "RandomForest", "Django"],
   },
@@ -215,6 +218,7 @@ export const projects = [
     description:
       "Mindvolta is a smart mental health assistant that helps users, especially young people and undergraduates, manage conditions like depression, anxiety, and addiction. It includes mood tracking, calming playlists, and chatbot support tailored for emotional wellbeing.",
     image: "/mindVolta.webp",
+     loomLink: "", // Add this
     githubLink: "https://github.com/Samuel-Adisi/MindVolta",
     stacks: ["React Native", "TypeScript", "TailwindCss"],
   },
@@ -222,6 +226,7 @@ export const projects = [
   {
     name: "Farote Notes App",
     type: "Personal Project",
+     loomLink: "", // Add this
     description:
       "Farote is a personal fullstack notes app I built to manage my ideas, quick thoughts, and to-dos. I wanted something I could use anywhere, so I made it a PWA, which means I can install and use it like a native app on my phone. It’s clean, responsive, and supports real-time note creation, editing, and deletion with a smooth, modern UI.",
     image: "/farote.webp",
@@ -243,6 +248,7 @@ export const projects = [
     description:
       "JustIron simplifies laundry services with an intuitive online platform, offering seamless booking, scheduling, and real-time order tracking for users in the UK.",
     image: "/justiron.webp",
+     loomLink: "", // Add this
     liveLink: "https://www.justiron.co.uk/",
     stacks: ["TypeScript", "React", "TailwindCss", "Redux"],
   },
@@ -252,6 +258,7 @@ export const projects = [
     description:
       "Berrystamp is revolutionizing the print-on-demand industry with its innovative approach to customization and printing services.",
     image: "/berrystamp.webp",
+     loomLink: "", // Add this
     liveLink: "https://berrystamp.com/",
     stacks: ["TypeScript", "React", "TailwindCss", "Redux"],
   },
@@ -275,6 +282,7 @@ export const projects = [
     description:
       "Huntstore is an ecommerce store that shows a variety of gender products.",
     image: "/huntstore.webp",
+     loomLink: "", // Add this
     liveLink: "https://huntstore.vercel.app/",
     githubLink: "https://github.com/Farouk-ayo/huntstore",
     stacks: ["JavaScript", "React", "css"],
@@ -287,6 +295,7 @@ export const projects = [
     description:
       "A movie discovery web application that allows users to search for movies, view details about them, and save their favorite movies, consuming data from the TMDB API.",
     image: "/moviebox.webp",
+     loomLink: "", // Add this
     liveLink: "https://movie-box-tmdb.vercel.app/",
     githubLink: "https://github.com/Farouk-ayo/movie--boxTMDB/tree/master",
     stacks: ["JavaScript", "React", "css"],
@@ -297,6 +306,7 @@ export const projects = [
     description:
       "E-vent is a centralized platform for event planners, organizers and attendees, to coordinate and manage various aspects of events such as scheduling, ticketing, registration, marketing and communication",
     image: "/e-vent.webp",
+     loomLink: "", // Add this
     stacks: ["JavaScript", "React", "Tailwind", "Mui"],
   },
  
