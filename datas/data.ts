@@ -1,23 +1,23 @@
 export const socialLinks = [
   {
     name: "Github",
-    link: "https://github.com/Farouk-ayo",
+    link: "https://github.com/Samue-Adisi",
     simpleIcon: "/svgs/github.svg",
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/Faroukayo",
+    link: "https://www.linkedin.com/in/Samuul-Adisi-123456789/",
     simpleIcon: "/svgs/linkedIn.svg",
   },
   {
     name: "X",
-    link: "https://x.com/Faroukayo24",
+    link: "https://x.com/Samuel_Adisi",
     simpleIcon: "/svgs/x.svg",
   },
 
   {
     name: "Instagram",
-    link: "https://www.instagram.com/dev_farouk/",
+    link: "https://www.instagram.com/Phenyl/",
     simpleIcon: "/svgs/insta.svg",
   },
 ];
@@ -98,47 +98,44 @@ export const sections = [
 
 export const companies = [
   "ThreadSwift",
-  "PharmaEco",
   "ReboundMedia",
   "Pathpalz",
   "Berrystamp",
-  "JustDo Startup",
 ];
 
 export const companiesInfo = [
   {
-    title: "Software Engineer",
-    company: "ThreadSwift- Digital Fashion Platform",
-    location: "Remote",
-    duration: "August 2025 – Present",
-    roles: [
-      "Engineered a full-stack marketplace system enabling users to browse, favorite, and purchase 3D fashion assets, implementing seamless product CRUD operations and subscription-based payment architecture.",
-      "Built an advanced studio for users, implementing auto-fitting, rigging, and animation systems that optimized 3D clothing adaptation to avatars using Three.js.",
-      "Collaborated with designers and 3D artists to translate creative concepts into interactive real-time previews using Three.js and React Three Fiber, optimizing render performance for complex models.",
-    ],
-  },
+  title: "Backend Software Engineer",
+  company: "NovaWear Labs – Virtual Commerce & 3D Experiences",
+  location: "Remote (Canada)",
+  duration: "August 2025 – Present",
+  roles: [
+    "Designed and developed scalable backend services for a virtual commerce platform, enabling secure browsing, favoriting, and purchasing of digital and 3D assets.",
+    "Built and maintained RESTful and event-driven APIs supporting user accounts, product management, subscriptions, and payment workflows.",
+    "Implemented backend systems for managing 3D assets, including metadata handling, storage pipelines, version control, and synchronization with frontend rendering tools.",
+    "Optimized database architecture, query performance, and caching strategies to support high-traffic, distributed systems.",
+    "Integrated secure authentication, authorization, and subscription-based billing systems compliant with Canadian and international data standards.",
+    "Collaborated remotely with cross-functional engineering, product, and design teams across Canada to deliver reliable, production-grade backend solutions."
+  ],
+}
+,
+
+
   {
-    title: "Web and Mobile App Developer",
-    company: "PharmaEco -AI-Powered Pharmaceutical Waste Management  ",
-    location: "Lagos Nigeria",
-    duration: "January 2025 - Present",
-    roles: [
-      "Built and represented PharmaEcoGuard EMR at AHEAD Africa Healthtech Conference Innovation Hackathon 2025, winning People's Choice Award for a smart pharmacy care and pharmacovigilance platform integrating patient documentation, ADR identification via Dorra EMR API, and pharmaceutical waste tracking",
-      "Developed full-stack AI-driven PWA with multi-page architecture addressing pharmaceutical waste management across Nigeria, implementing chatbot functionality, educational content system, geolocation-based disposal mapping, and community engagement features supporting multiple UN Sustainable Development Goals",
-      "Built a comprehensive waste tracking and pharmacy registration system with full CRUD operations, enabling facilities to record returned medicines, monitor packaging disposal, earn sustainability points, and achieve sub-200ms API response times across 20+ registered pharmacies",
-    ],
-  },
-  {
-    title: "Frontend Engineer",
-    company: "ReboundMedia - JustIron Laundry",
-    location: "Nigeria",
-    duration: "October 2024 - December 2024 (Contract)",
-    roles: [
-      "Engineered sophisticated pricing calculation system handling multi-variable logic for service types (washing, dry cleaning, ironing), item categories (bedsheets, shirts, suits), and quantity modifiers with real-time database synchronization.",
-      "Streamlined user onboarding experience by implementing seamless sign-up to checkout flow, automatically authenticating users post-registration and maintaining session state throughout the order process.",
-      "Optimized performance across booking, scheduling, and tracking modules, delivering enhanced user experience for UK-based laundry service customers.",
-    ],
-  },
+  title: "Backend Developer (Express.js)",
+  company: "ReboundMedia – JustIron Laundry",
+  location: "Remote (United Kingdom)",
+  duration: "October 2024 - December 2024 (Contract)",
+  roles: [
+    "Developed and maintained backend services using Node.js and Express.js for a UK-based laundry service platform.",
+    "Engineered a robust pricing calculation engine handling multi-variable business logic across service types (washing, dry cleaning, ironing), item categories, and quantity-based modifiers with real-time database synchronization.",
+    "Designed RESTful APIs to support booking, scheduling, order tracking, and checkout workflows.",
+    "Implemented secure authentication and session management to enable seamless sign-up, automatic login, and persistent user sessions throughout the ordering process.",
+    "Optimized backend performance and database queries to ensure reliable and scalable service for UK-based customers."
+  ],
+}
+,
+ 
   {
     title: "Lead Frontend Engineer",
     company: "Pathpalz - GSwift Ridesharing PWA",
@@ -149,26 +146,21 @@ export const companiesInfo = [
       "Built responsive interfaces optimized for smooth navigation and consumption of geolocation and commuter-tracking API",
     ],
   },
-  {
-    title: "Frontend Engineer",
-    company: "Berrystamp - Decentralized Print-on-Demand",
-    location: "Lagos, Nigeria",
-    duration: "October 2023 - February 2024",
-    roles: [
-      "Led admin dashboard development for a decentralized print-on-demand platform.",
-      "Implemented complex API integrations and scalable component architecture during early startup growth.",
-    ],
-  },
 
   {
-    title: "Frontend Developer",
-    company: "JustDo-Startup (JDS)",
-    location: "Lagos Nigeria",
-    duration: "February 2023 – July 2023",
-    roles: [
-      "Contributed to a community of developers and product designers, in developing a webApp(E-vent). The (E-vent) webApp is designed and developed with React, JavaScript, Vite, and cutting edge React 18 features to provide a centralized platform for event planners, organizers and attendees, to coordinate and manage various aspects of events such as scheduling, ticketing, registration, marketing and communication.",
-    ],
-  },
+  title: "Backend Developer (Django)",
+  company: "Berrystamp - Decentralized Print-on-Demand",
+  location: "Remote (United States)",
+  duration: "October 2023 - February 2024",
+  roles: [
+    "Designed and developed scalable backend services using Django and Django REST Framework.",
+    "Built and maintained secure RESTful APIs to support a decentralized print-on-demand platform.",
+    "Optimized database queries and application performance for high-traffic usage.",
+    "Integrated third-party services and handled background tasks using Celery and Redis.",
+    "Collaborated remotely with cross-functional teams across different time zones in the United States."
+  ],
+}
+
 ];
 
 export const projects = [
@@ -188,16 +180,7 @@ export const projects = [
       "Postgres",
     ],
   },
-  {
-    name: "MallMark E-commerce",
-    type: "Personal Project",
-    description:
-      "Multi-vendor Marketplace for product listings, orders, reviews, and secure payment integration",
-    image: "/mallmark.png",
-    liveLink: "https://www.programs-bfn.ca/yearbook-2025",
-     loomLink: "", // Add this
-    stacks: ["JavaScript", "React", "TailwindCss", "PHP", "Laravel"],
-  },
+
   {
     name: "DeepGene",
     type: "Personal Project",
@@ -208,6 +191,18 @@ export const projects = [
      loomLink: "", // Add this
     githubLink: "https://github.com/Samuel-Adisi/DeepGene",
     stacks: ["Python", "BioPython", "RandomForest", "Django"],
+  },
+
+
+    {
+    name: "Huntstore",
+    type: "Personal Project",
+    description:
+      "Huntstore is an ecommerce store that shows a variety of gender products.",
+    image: "/huntstore.webp",
+    liveLink: "https://huntstore.vercel.app/",
+    githubLink: "",
+    stacks: ["JavaScript", "React", "css"],
   },
 
  
@@ -276,17 +271,6 @@ export const projects = [
   // },
 
  
-  {
-    name: "Huntstore",
-    type: "Personal Project",
-    description:
-      "Huntstore is an ecommerce store that shows a variety of gender products.",
-    image: "/huntstore.webp",
-     loomLink: "", // Add this
-    liveLink: "https://huntstore.vercel.app/",
-    githubLink: "https://github.com/Farouk-ayo/huntstore",
-    stacks: ["JavaScript", "React", "css"],
-  },
  
 
    {
@@ -297,7 +281,7 @@ export const projects = [
     image: "/moviebox.webp",
      loomLink: "", // Add this
     liveLink: "https://movie-box-tmdb.vercel.app/",
-    githubLink: "https://github.com/Farouk-ayo/movie--boxTMDB/tree/master",
+    githubLink: "",
     stacks: ["JavaScript", "React", "css"],
   },
   {

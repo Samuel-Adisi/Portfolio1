@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "DevFarouk 👨‍💻",
-  description: "Works || DevFarouk",
+  title: "AdisiDev 👨‍💻",
+  description: "Works || AdisiDev",
 };
 
 export default function WorkLayout({

@@ -103,7 +103,7 @@ const Navbar = () => {
             ))}
             <Button asChild variant={"outline"}>
               <Link
-                href="https://docs.google.com/document/d/1EktAf1QQtH6vMP7XUi9i0LLCasbY9IPy7YLwGasTA7k/edit?usp=sharing"
+                href="https://drive.google.com/file/d/1QdfKcCErb35uInqVWvSaZixEdB55TB79/view?usp=drivesdk"
                 className=""
                 target="_blank"
                 rel="noopener noreferrer"

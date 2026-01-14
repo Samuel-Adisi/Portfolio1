@@ -6,7 +6,7 @@ const Copyright = () => {
       <p className=" text-center">
         Designed by
         <Link
-          href={"https://github.com/Farouk-ayo/devfarouk"}
+          href={"https://github.com/Samuel-Adisi"}
           className=" text-secondary-color-3   font-bold font-idgrotesk"
           target="_blank"
           rel="noopener noreferrer"
