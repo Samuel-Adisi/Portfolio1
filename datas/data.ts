@@ -200,7 +200,7 @@ export const projects = [
     description:
       "Huntstore is an ecommerce store that shows a variety of gender products.",
     image: "/huntstore.webp",
-    liveLink: "https://huntstore.vercel.app/",
+    liveLink: "https://huntstore1.vercel.app/",
     githubLink: "",
     stacks: ["JavaScript", "React", "css"],
   },
