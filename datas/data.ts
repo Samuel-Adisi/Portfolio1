@@ -121,7 +121,7 @@ export const projects = [
     type: "Featured Project",
     description:
       "Hostmond is a Render-style PaaS platform for Ghana/West Africa, letting developers deploy apps with a Git-based workflow. Built solo end-to-end: multi-tenant backend, automated container builds, and versioned image releases.",
-    image: "/hostmond.webp",
+    image: "/hostmond.png",
     liveLink: "",
     loomLink: "", // Add this
     githubLink: "https://github.com/Samuel-Adisi/hostmond",
