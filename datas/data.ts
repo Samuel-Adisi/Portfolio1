@@ -21,6 +21,7 @@ export const socialLinks = [
     simpleIcon: "/svgs/insta.svg",
   },
 ];
+
 export const technologies = [
   {
     name: "React",
@@ -96,74 +97,36 @@ export const sections = [
   { idRoute: "/#contact", name: "Contact" },
 ];
 
-export const companies = [
-  "ThreadSwift",
-  "ReboundMedia",
-  "Pathpalz",
-  "Berrystamp",
-];
+export const companies = ["Kreddible"];
 
 export const companiesInfo = [
   {
-  title: "Backend Software Engineer",
-  company: "NovaWear Labs – Virtual Commerce & 3D Experiences",
-  location: "Remote (Canada)",
-  duration: "August 2025 – Present",
-  roles: [
-    "Designed and developed scalable backend services for a virtual commerce platform, enabling secure browsing, favoriting, and purchasing of digital and 3D assets.",
-    "Built and maintained RESTful and event-driven APIs supporting user accounts, product management, subscriptions, and payment workflows.",
-    "Implemented backend systems for managing 3D assets, including metadata handling, storage pipelines, version control, and synchronization with frontend rendering tools.",
-    "Optimized database architecture, query performance, and caching strategies to support high-traffic, distributed systems.",
-    "Integrated secure authentication, authorization, and subscription-based billing systems compliant with Canadian and international data standards.",
-    "Collaborated remotely with cross-functional engineering, product, and design teams across Canada to deliver reliable, production-grade backend solutions."
-  ],
-}
-,
-
-
-  {
-  title: "Backend Developer (Express.js)",
-  company: "ReboundMedia – JustIron Laundry",
-  location: "Remote (United Kingdom)",
-  duration: "October 2024 - December 2024 (Contract)",
-  roles: [
-    "Developed and maintained backend services using Node.js and Express.js for a UK-based laundry service platform.",
-    "Engineered a robust pricing calculation engine handling multi-variable business logic across service types (washing, dry cleaning, ironing), item categories, and quantity-based modifiers with real-time database synchronization.",
-    "Designed RESTful APIs to support booking, scheduling, order tracking, and checkout workflows.",
-    "Implemented secure authentication and session management to enable seamless sign-up, automatic login, and persistent user sessions throughout the ordering process.",
-    "Optimized backend performance and database queries to ensure reliable and scalable service for UK-based customers."
-  ],
-}
-,
- 
-  {
-    title: "Lead Frontend Engineer",
-    company: "Pathpalz - GSwift Ridesharing PWA",
-    location: "Uk(remote)",
-    duration: "February 2023 - September 2024",
+    title: "Backend Developer (Django)",
+    company: "Berrystamp - Decentralized Print-on-Demand",
+    location: "Remote (United States)",
+    duration: "October 2023 - February 2024",
     roles: [
-      "Developed a PWA for ride-sharing, enabling users to find nearby commuters and share rides in real time.",
-      "Built responsive interfaces optimized for smooth navigation and consumption of geolocation and commuter-tracking API",
+      "Designed and developed scalable backend services using Django and Django REST Framework.",
+      "Built and maintained secure RESTful APIs to support a decentralized print-on-demand platform.",
+      "Optimized database queries and application performance for high-traffic usage.",
+      "Integrated third-party services and handled background tasks using Celery and Redis.",
+      "Collaborated remotely with cross-functional teams across different time zones in the United States.",
     ],
   },
-
-  {
-  title: "Backend Developer (Django)",
-  company: "Berrystamp - Decentralized Print-on-Demand",
-  location: "Remote (United States)",
-  duration: "October 2023 - February 2024",
-  roles: [
-    "Designed and developed scalable backend services using Django and Django REST Framework.",
-    "Built and maintained secure RESTful APIs to support a decentralized print-on-demand platform.",
-    "Optimized database queries and application performance for high-traffic usage.",
-    "Integrated third-party services and handled background tasks using Celery and Redis.",
-    "Collaborated remotely with cross-functional teams across different time zones in the United States."
-  ],
-}
-
 ];
 
 export const projects = [
+  {
+    name: "Hostmond",
+    type: "Featured Project",
+    description:
+      "Hostmond is a Render-style PaaS platform for Ghana/West Africa, letting developers deploy apps with a Git-based workflow. Built solo end-to-end: multi-tenant backend, automated container builds, and versioned image releases.",
+    image: "/hostmond.webp",
+    liveLink: "",
+    loomLink: "", // Add this
+    githubLink: "https://github.com/Samuel-Adisi/hostmond",
+    stacks: ["Go", "Gin", "PostgreSQL", "Redis", "asynq", "Docker"],
+  },
   {
     name: "iCampus",
     type: "Personal Project",
@@ -171,14 +134,8 @@ export const projects = [
       "Developing an improved School Management System for Accra Technical University",
     image: "/IC.png",
     liveLink: "",
-     loomLink: "", // Add this
-    stacks: [
-      "React.Js",
-      "JavaScript",
-      "Python",
-      "Django",
-      "Postgres",
-    ],
+    loomLink: "", // Add this
+    stacks: ["React.Js", "JavaScript", "Python", "Django", "Postgres"],
   },
 
   {
@@ -188,13 +145,12 @@ export const projects = [
       "Currently working on an AI drug resistance predictive model to help Pharmaceutical companies in drug study and production",
     image: "/deepgene.png",
     liveLink: "",
-     loomLink: "", // Add this
+    loomLink: "", // Add this
     githubLink: "https://github.com/Samuel-Adisi/DeepGene",
     stacks: ["Python", "BioPython", "RandomForest", "Django"],
   },
 
-
-    {
+  {
     name: "Huntstore",
     type: "Personal Project",
     description:
@@ -205,25 +161,22 @@ export const projects = [
     stacks: ["JavaScript", "React", "css"],
   },
 
- 
-
   {
     name: "Mindvolta",
     type: "Featured Project",
     description:
       "Mindvolta is a smart mental health assistant that helps users, especially young people and undergraduates, manage conditions like depression, anxiety, and addiction. It includes mood tracking, calming playlists, and chatbot support tailored for emotional wellbeing.",
     image: "/mindVolta.webp",
-     loomLink: "", // Add this
+    loomLink: "", // Add this
     githubLink: "https://github.com/Samuel-Adisi/MindVolta",
     stacks: ["React Native", "TypeScript", "TailwindCss"],
   },
- 
   {
     name: "Farote Notes App",
     type: "Personal Project",
-     loomLink: "", // Add this
+    loomLink: "", // Add this
     description:
-      "Farote is a personal fullstack notes app I built to manage my ideas, quick thoughts, and to-dos. I wanted something I could use anywhere, so I made it a PWA, which means I can install and use it like a native app on my phone. It’s clean, responsive, and supports real-time note creation, editing, and deletion with a smooth, modern UI.",
+      "Farote is a personal fullstack notes app I built to manage my ideas, quick thoughts, and to-dos. I wanted something I could use anywhere, so I made it a PWA, which means I can install and use it like a native app on my phone. It's clean, responsive, and supports real-time note creation, editing, and deletion with a smooth, modern UI.",
     image: "/farote.webp",
     liveLink: "https://farote.vercel.app",
     githubLink: "",
@@ -243,7 +196,7 @@ export const projects = [
     description:
       "JustIron simplifies laundry services with an intuitive online platform, offering seamless booking, scheduling, and real-time order tracking for users in the UK.",
     image: "/justiron.webp",
-     loomLink: "", // Add this
+    loomLink: "", // Add this
     liveLink: "https://www.justiron.co.uk/",
     stacks: ["TypeScript", "React", "TailwindCss", "Redux"],
   },
@@ -253,12 +206,11 @@ export const projects = [
     description:
       "Berrystamp is revolutionizing the print-on-demand industry with its innovative approach to customization and printing services.",
     image: "/berrystamp.webp",
-     loomLink: "", // Add this
+    loomLink: "", // Add this
     liveLink: "https://berrystamp.com/",
     stacks: ["TypeScript", "React", "TailwindCss", "Redux"],
   },
 
-  
   // {
   //   name: "TMDB v2 Mobile App",
   //   type: "Personal Project",
@@ -270,16 +222,13 @@ export const projects = [
   //   liveLink: "https://expo.dev/artifacts/eas/wWgr9LmHE1qD5SnQKHA6QS.aab",
   // },
 
- 
- 
-
-   {
+  {
     name: "MovieBox",
     type: "Personal Project",
     description:
       "A movie discovery web application that allows users to search for movies, view details about them, and save their favorite movies, consuming data from the TMDB API.",
     image: "/moviebox.webp",
-     loomLink: "", // Add this
+    loomLink: "", // Add this
     liveLink: "https://movie-box-tmdb.vercel.app/",
     githubLink: "",
     stacks: ["JavaScript", "React", "css"],
@@ -290,12 +239,7 @@ export const projects = [
     description:
       "E-vent is a centralized platform for event planners, organizers and attendees, to coordinate and manage various aspects of events such as scheduling, ticketing, registration, marketing and communication",
     image: "/e-vent.webp",
-     loomLink: "", // Add this
+    loomLink: "", // Add this
     stacks: ["JavaScript", "React", "Tailwind", "Mui"],
   },
- 
- 
-  
-
-  ,
 ];

@@ -45,7 +45,7 @@ const About = () => {
             I'm Samuel Adisi, a Software Developer based in Accra, Ghana,
             with over 4 years of experience building web and mobile apps. I work
             mostly with JavaScript, TypeScript, React, React Native, Next.js,
-            and Nodejs, Python, Django, turning ideas and designs into clean, functional user
+            and Nodejs,Java,SpringBoot,Go,Gin Python, Django, turning ideas and designs into clean, functional user
             interfaces.
             <br />
             <br />
